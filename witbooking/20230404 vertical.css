@@ -1,0 +1,151 @@
+/* CSS para móviles */
+
+@media only screen and (max-width: 767px) {
+
+.reservation-form {
+display: block;
+margin: 0;
+padding: 10px;
+}
+
+.reservation-form label {
+display: block;
+margin-bottom: 5px;
+text-align: left;
+}
+
+.reservation-form input,
+.reservation-form select {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: none;
+border-radius: 5px;
+background-color: #fff;
+text-align: center;
+}
+
+.reservation-form button {
+display: block;
+margin-top: 10px;
+padding: 10px;
+border: none;
+border-radius: 5px;
+background-color: #0077cc;
+color: #f7f7f7;
+cursor: pointer;
+width: 100%;
+text-align: center;
+}
+
+.reservation-form button:hover {
+background-color: #005ea6;
+}
+
+.reservation-form input[type="date"] {
+box-sizing: border-box;
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: none;
+border-radius: 5px;
+background-color: #fff;
+text-align: center;
+}
+
+.reservation-form h2 {
+font-size: 24px;
+}
+
+.reservation-form input,
+.reservation-form select {
+width: 95%;
+}
+
+.reservation-form button {
+font-size: 14px;
+}
+
+}
+
+/* CSS para PC */
+
+@media only screen and (min-width: 768px) {
+
+.reservation-form {
+font-family: Arial, sans-serif;
+margin: 20px auto;
+max-width: 700px;
+padding: 20px;
+background-color: #f7f7f7;
+}
+
+.reservation-form h2 {
+margin-top: 0;
+}
+
+.reservation-form input,
+.reservation-form select {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: none;
+border-radius: 5px;
+background-color: #fff;
+text-align: center;
+}
+
+.reservation-form button {
+display: block;
+margin-top: 10px;
+padding: 10px;
+border: none;
+border-radius: 5px;
+background-color: #0077cc;
+color: #fff;
+cursor: pointer;
+width: 100%;
+text-align: center;
+}
+
+.reservation-form button:hover {
+background-color: #005ea6;
+}
+
+.reservation-form input[type="date"] {
+box-sizing: border-box;
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: none;
+border-radius: 5px;
+background-color: #fff;
+text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.reservation-form {
+font-size: 14px;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+.reservation-form input,
+.reservation-form select {
+width: 95%;
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+
+.reservation-form button {
+font-size: 14px;
+}
+
+}
