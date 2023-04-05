@@ -1,0 +1,27 @@
+<div nombre="motorPc" id="motorPc">
+    <form action="https://reservas.hotelesarrecife.es/arrecife_agr/availability?" method="GET" class="reservation-form" id="reservation-form">
+      <input type="hidden" id="affiliate" name="affiliate" value="hotelesarrecife_es">
+
+      <label for="datein">Fecha de Entrada:</label>
+      <input type="text" id="datein" name="datein" placeholder="Entrada" value="">
+      <label for="dateout">Fecha de Salida:</label>
+      <input type="text" id="dateout" name="dateout" placeholder="Salida" value="">
+
+      
+
+      <button name="bookingButtonPc" id="bookingButtonPc" type="submit"><strong>CONSULTA DISPONIBILIDAD</strong> <br>
+        Precio Mínimo Garantizado</button>
+    </form>
+  </div>
+
+  <div nombre="motorMobile" id="motorMobile">
+    <form action="https://reservas.hotelesarrecife.es/arrecife_agr/availability?" method="GET" class="reservation-form-mobile" id="reservation-form-mobile">
+      <input type="hidden" id="affiliate" name="affiliate" value="hotelesarrecife_es">
+
+
+      <button name="bookingButton" id="bookingButton" type="submit"><strong>CONSULTA DISPONIBILIDAD</strong> <br> Precio Mínimo Garantizado</button>
+    </form>
+  </div>
+
+  <script src="/js/flatpickr.js"></script>
+  <script src="/js/motor.js"></script>
